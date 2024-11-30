@@ -21,7 +21,7 @@ class _DetailScreenState extends State<DetailScreen> {
   void initState() {
     super.initState();
     webtoon = APIService.getToonById(widget.webtoon.id);
-    episode = APIService.getLatestEpisodeById(widget.webtoon.id);
+    episode = APIService.getLatestEpisodesById(widget.webtoon.id);
   }
 
   @override
