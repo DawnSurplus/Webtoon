@@ -1,11 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:flutter/gestures.dart';
 import 'package:http/http.dart' as http;
 import 'package:webtoon/models/webtoon_detail_model.dart';
 import 'package:webtoon/models/webtoon_episode_model.dart';
 import 'package:webtoon/models/webtoon_model.dart';
-import 'package:webtoon/widgets/webtoon_widget.dart';
 
 class APIService {
   static const String baseURL =
